@@ -27,7 +27,7 @@ To install and run the project, follow these steps:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd form-validation01
+   cd formValidation
    ```
 3. Install dependencies:
    ```bash
@@ -39,7 +39,7 @@ To install and run the project, follow these steps:
 To start the development server, run:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Open your browser and navigate to `http://localhost:3000` to see the form validation in action.
@@ -53,10 +53,6 @@ The following validation rules are implemented:
 - **Password Strength**: Ensures that the password meets the minimum strength criteria (e.g., length, special characters).
 - **Matching Passwords**: Confirms that the password and confirm password fields match.
 - **Custom Rules**: Allows for additional custom validation logic.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 

@@ -82,16 +82,7 @@ const MyForm = () => {
                 name="password"
                 placeholder="Enter Password"
               />
-              <span
-                onClick={togglePasswordVisibility}
-                style={{
-                  position: "absolute",
-                  right: "10px",
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  cursor: "pointer",
-                }}
-              >
+              <span onClick={togglePasswordVisibility}>
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </span>
               <ErrorMessage name="password" component="div" />
@@ -103,16 +94,7 @@ const MyForm = () => {
                 name="password"
                 placeholder="Re-Enter Password"
               />
-              <span
-                onClick={togglePasswordVisibility}
-                style={{
-                  position: "absolute",
-                  right: "10px",
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  cursor: "pointer",
-                }}
-              >
+              <span onClick={togglePasswordVisibility}>
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </span>
               <ErrorMessage name="password" component="div" />

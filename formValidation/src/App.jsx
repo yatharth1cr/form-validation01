@@ -32,17 +32,14 @@ const MyForm = () => {
             <Field type="text" name="username" placeholder="Username" />
             <ErrorMessage name="username" component="div" />
           </div>
-
           <div>
             <Field type="email" name="email" placeholder="Email" />
             <ErrorMessage name="email" component="div" />
           </div>
-
           <div>
             <Field type="number" name="age" placeholder="Enter your age" />
             <ErrorMessage name="age" component="div" />
           </div>
-
           <div>
             <Field as="select" name="gender">
               <option value="" label="Select gender" />
@@ -54,7 +51,20 @@ const MyForm = () => {
           </div>
 
           <div>
-            <Field type="password" name="password" placeholder="Password" />
+            <Field
+              type="password"
+              name="password"
+              placeholder="Enter Password"
+            />
+            <ErrorMessage name="password" component="div" />
+          </div>
+
+          <div>
+            <Field
+              type="password"
+              name="password"
+              placeholder="Re-Enter Password"
+            />
             <ErrorMessage name="password" component="div" />
           </div>
           <button type="submit">Submit</button>
